@@ -3,8 +3,8 @@ import json
 import requests
 import numpy as np
 import tensorflow as tf
-from keras.layers import Input
-from keras.datasets import mnist
+from tensorflow.keras.layers import Input
+from tensorflow.keras.datasets import mnist
 
 
 class VAEGrader(object):
